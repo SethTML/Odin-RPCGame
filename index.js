@@ -63,4 +63,7 @@ function PlayerChoice(){
     return pChoice;
 }
 
-Game();
+let StartButton = document.getElementsByClassName("RPCButton")[0];
+StartButton.onclick = function(){
+    Game();
+}
